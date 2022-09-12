@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chutunglamnsc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chutunglamnsc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chutunglamnsc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chutunglamnsc:war exploded" />
+    </root>
+  </artifact>
+</component>
